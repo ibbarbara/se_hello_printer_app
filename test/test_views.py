@@ -20,4 +20,4 @@ class FlaskrTestCase(unittest.TestCase):
 # dodawanie XML    
      def test_msg_with_output(self):
         rv = self.app.get('/?output=xml')
-        self.assertEqual(b'{ "imie":"Barbara", "msg":"Hello World!"}', rv.data)
+        self.assertEqual(b'"<greetings>" + "<name>" + imie + "</name> " + "<msg>" +msg + "</msg>" + "</greetings>"', rv.data)
