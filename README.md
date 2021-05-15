@@ -9,6 +9,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   # tworzymy hermetyczne środowisko dla bibliotek aplikacji:
   $ python3 -m venv .venv
 
+  # za pomoca Makefile
+  $ make deps
+
   # aktywowanie hermetycznego środowiska
   $ source .venv/bin/activate
   $ pip install -r requirements.txt
@@ -22,6 +25,10 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Uruchamianie applikacji:
 
+#w trybie dev
+$ make run
+
+
   ```
   # jako zwykły program
   $ python main.py
@@ -32,6 +39,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Uruchamianie testów (see: http://doc.pytest.org/en/latest/capture.html):
 
+$ make test
+
+#bez makefile
   ```
   $ PYTHONPATH=. py.test
   $ PYTHONPATH=. py.test --verbose -s
