@@ -19,3 +19,12 @@ def index():
 @app.route('/outputs')
 def supported_output():
     return ", ".join(SUPPORTED)
+
+
+@app.route('/name=<name>&output=json')
+def adding_name(name):
+    # if name:
+    #     return f'{name}'
+    # else:
+    #     return f'{moje_imie}'
+    return f'{name}'
