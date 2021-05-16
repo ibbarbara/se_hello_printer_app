@@ -1,5 +1,12 @@
 # Simple Flask App
 
+#Dodawania build s TravisCI
+
+  [![Build Status](https://travis-ci.org/ibbarbara/se_hello_printer_app.svg?branch=master)](https://travis-ci.org/ibbarbara/se_hello_printer_app)
+
+#Dodawanie build from StatusCake
+
+  [![Build Status](https://app.statuscake.com/button/index.php?Track=5961422&Days=1&Design=1)](https://app.statuscake.com/button/index.php?Track=5961422&Days=1&Design=1)
 
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
@@ -96,9 +103,3 @@ $ make test
   $ systemctl start docker
   ```
 
-#Dodawania build s TravisCI
-
-  [![Build Status](https://travis-ci.org/ibbarbara/se_hello_printer_app.svg?branch=master)](https://travis-ci.org/ibbarbara/se_hello_printer_app)
-
-#Dodawanie build from StatusCake
-  [![Build Status](https://app.statuscake.com/button/index.php?Track=5961422&Days=1&Design=1)](https://app.statuscake.com/button/index.php?Track=5961422&Days=1&Design=1)
