@@ -11,6 +11,12 @@ test:
 test_smoke:
 	curl --fail 127.0.0.1:5000
 
+test_cov:
+	PYTHONPATH=. py.test --verbose -s --cov=.
+
+test_xunit:
+	PYTHONPATH=. py.test --verbose -s --cov=. --cov-report xml
+
 lint:
 	flake8 hello_world test
 
@@ -34,3 +40,4 @@ docker_push: docker_build
 	docker tag hello-world-printer $(TAG); \
 	docker push $(TAG); \
 	docker logout;
+
