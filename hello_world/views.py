@@ -27,4 +27,4 @@ def adding_name(name):
     #     return f'{name}'
     # else:
     #     return f'{moje_imie}'
-    return f'{name}'
+    return name
