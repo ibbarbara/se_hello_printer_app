@@ -101,4 +101,4 @@ $ make test
   [![Build Status](https://travis-ci.org/ibbarbara/se_hello_printer_app.svg?branch=master)](https://travis-ci.org/ibbarbara/se_hello_printer_app)
 
 #Dodawanie build from StatusCake
-https://app.statuscake.com/button/index.php?Track=5961422&Days=1&Design=1
+  [![Build Status](https://app.statuscake.com/button/index.php?Track=5961422&Days=1&Design=1)](https://app.statuscake.com/button/index.php?Track=5961422&Days=1&Design=1)
