@@ -94,3 +94,7 @@ $ make test
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
+
+#Dodawania build s TravisCI
+
+  [![Build Status](https://travis-ci.org/ibbarbara/se_hello_printer_app.svg?branch=master)](https://travis-ci.org/ibbarbara/se_hello_printer_app)
